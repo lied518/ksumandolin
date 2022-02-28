@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+html{
+    height:100%;
+    }
+    body{
+    margin: 0;
+    padding: 0;
+    height:100%; 
+    }
+    body > .background {
+    height: auto;
+    }
+
+.background {
+    background-color: #cc9966;
+    height:100%;
+    min-height:100%;
+}
+
+.body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 1px;
+}
+
+/* ヘッダー */
+header h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.menue-ber {
+    background-color: brown;
+}
+
+.menue-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menue-btn:hover {
+    color: black;
+    background:  #DE6B82;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.menue {
+	list-style-type:none;
+}
+
+.menue > li {
+	display:inline-block;
+	position:relative;
+}
+
+.menue > li > ul {
+	display:none;
+}
+
+.menue > li:hover ul {
+    width: 130px;
+	display:block;
+	position:absolute;
+	padding:5px 5px;
+	margin:0;
+	top:2.1em;
+	left:0;
+	list-style-type:none;
+    z-index: 10;
+    color: white;
+    background-color: brown;
+}
+
+.menue > li > ul > li:hover {
+    background-color: #DE6B82;
+    transition: all 0.5s;
+}
+
+.menue > li > ul > li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menue > li > ul > li a:hover {
+    color: black;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+
+
+/* 目次　
+.mokuzi {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.mokuzi-ber {
+    position: relative;
+    left: 75px;
+    top: -27px;
+    width: 620px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+}
+
+.mokuzi-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.mokuzi-btn:hover {
+    color: black;
+    background:  #DE6B82;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+*/
+/* メイン */
+
+.top-pic img {
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+.main-body {
+    margin: 10px 80px;
+}
+
+.main-body p {
+    line-height: 27px;
+}
+
+.main-ber {
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px dotted #dcdcdc;
+}
+
+/* ↑index.CSS */
+/* ↓Q&A.CSS */
+
+.main-title {
+    font-size: 25px;
+    margin: 40px 20px;
+    padding: 0.1em 0.3em;
+	border-left: 10px solid brown;
+}
+
+.main-gaiyou {
+    border-top: solid 3px;
+    border-left: solid 3px;
+    border-right: solid 3px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main-club {
+    overflow: hidden;
+    border: solid 3px;
+    margin-bottom: 20px;
+}
+
+.main-club-left {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.main-club-right {
+    float: left;
+}
+
+.q {
+    font-weight: bold;
+    font-style: italic;
+}
